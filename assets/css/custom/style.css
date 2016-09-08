@@ -1,6 +1,21 @@
-@import "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&subset=latin-ext";
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../fonts/OpenSans-Regular.ttf) format("truetype"); }
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url(../../fonts/OpenSans-Semibold.ttf) format("truetype"); }
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../../fonts/OpenSans-Bold.ttf) format("truetype"); }
 body {
-  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif; }
+  font-family: "Open Sans",Tahoma,Helvetica,Arial,sans-serif;
+  font-weight: 400; }
 
 h1, h2, h3, h4, h5, h6, li, ul {
   margin: 0; }
@@ -55,7 +70,8 @@ ul, li {
         left: 240px; }
   #header-wrap .search {
     position: relative;
-    float: left; }
+    float: left;
+    width: calc(100% - 521px); }
     #header-wrap .search input[type="text"] {
       width: 100%;
       height: 48px;
